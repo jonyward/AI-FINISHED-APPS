@@ -8,6 +8,6 @@
 ### Newest version of OpenCv installed
 ###
 ### To run the image logo recognition application use the following command in a terminal
-### python image.py "logo.png/jpg" cascade.xml
+### python image.py "logo.png/jpg"
 
 ### To run the webcam logo recognition application simply run the script without any other arguments/parameters
