@@ -17,15 +17,15 @@ logos = logoCascade.detectMultiScale(
     gray,
     scaleFactor=1.10,
     minNeighbors=1,
-    minSize=(12, 12),
-    maxSize=(250, 250)
+    minSize=(50, 50),
+    maxSize=(150, 150)
 )
 
 print("Found {0} logos!".format(len(logos)))
 
 # Draw a rectangle around the faces
 for (x, y, w, h) in logos:
-    cv2.rectangle(image, (x, y), (x+w, y+h), (255, 0, 0), 2)
+    cv2.rectangle(image, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
 cv2.imshow("Logos Found", image)
 cv2.waitKey(0)
