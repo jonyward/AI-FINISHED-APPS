@@ -22,7 +22,7 @@ while True:
 
     # Draw a rectangle around the logo
     for (x, y, w, h) in logo:
-        cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+        cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
 
     # Display the resulting frame
     cv2.imshow('Video', frame)
