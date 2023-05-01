@@ -17,8 +17,8 @@ logos = logoCascade.detectMultiScale(
     gray,
     scaleFactor=1.10,
     minNeighbors=1,
-    minSize=(50, 50),
-    maxSize=(150, 150)
+    minSize=(12, 12),
+    maxSize=(250, 250)
 )
 
 print("Found {0} logos!".format(len(logos)))
