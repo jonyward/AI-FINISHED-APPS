@@ -16,7 +16,7 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 logos = logoCascade.detectMultiScale(
     gray,
     scaleFactor=1.10,
-    minNeighbors=3,
+    minNeighbors=2,
     minSize=(12, 12),
     maxSize=(250, 250)
 )
