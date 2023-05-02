@@ -29,3 +29,6 @@ for (x, y, w, h) in logos:
 
 cv2.imshow("Logos Found", image)
 cv2.waitKey(0)
+
+
+
