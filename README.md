@@ -1,13 +1,23 @@
-# AI-FINISHED-APPS
+# Artificial Intelligence - Computer vision OpenCV applications
 
-# OPENCV AI/MACHINE LEARNING BASED LOGO RECOGNITION APPLICATION
+Image recognition application, powered by OpenCV and a custom identifier, trained using a Haar Cascade Algorithm, and greyscale images containing a target image.
 
-## REQUIREMENTS
+This repository contains two python scripts, which both can successfully identify a mock company logo created for this application through still images used as an argument, as well as in real time through a laptop or external webcam.
 
-### Must have up to date version of python installed with pip package installer
-### Newest version of OpenCv installed using the command on a terminal - "pip install opencv-python"
-###
-### To run the image logo recognition application use the following command in a terminal
-### python image.py "logo.png/jpg"
 
-### To run the webcam logo recognition application simply run the script without any other arguments/parameters
+
+
+## Requirements
+
+How to run Image recognition App:
+
+```bash
+    pip install opencv-python
+    python image.py "logo.png/jpg
+```
+
+How to run Live Facial recognition App:
+
+```bash
+    python webcam.py
+```
