@@ -11,13 +11,13 @@ This repository contains two python scripts, which both can successfully identif
 
 How to run Image recognition App:
 
-```bash
-    pip install opencv-python
-    python image.py "logo.png/jpg"
+```
+pip install opencv-python
+python image.py "logo.png/jpg"
 ```
 
 How to run Live Facial recognition App:
 
-```bash
-    python webcam.py
+```
+python webcam.py
 ```
