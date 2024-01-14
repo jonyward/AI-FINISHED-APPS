@@ -13,6 +13,9 @@ How to run Image recognition App:
 
 ```
 pip install opencv-python
+```
+
+```
 python image.py "logo.png/jpg"
 ```
 
